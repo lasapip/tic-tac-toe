@@ -1,5 +1,5 @@
 body{
- background-color: black;  
+ background-color: black;
 }
 .content-container{
     color: white;
@@ -12,5 +12,29 @@ body{
     margin-top: 50px;
 }
 .btn{
-    width: 50%;
+  width: 50%;
+}
+.cell{
+  width: 160px;
+  height: 160px;
+  outline: none;
+}
+.cell:hover{
+  background-color: #d9d9d9;
+  transition: 1s;
+}
+#board-container{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+  width: 50%;
+  background-color:
+}
+#play-board{
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#play-title{
+  color: white;
 }
