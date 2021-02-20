@@ -23,9 +23,8 @@ var board = [
   [c1, c2, c3],
 ];
 
-
+var turn = 0;
 function incrementTurn() {
-  var turn = 0;
   turn++;
 }
 
