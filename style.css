@@ -13,7 +13,17 @@ body{
     margin-top: 50px;
 }
 .btn{
-  width: 50%;
+  width: 35%;
+  display: inline;
+}
+a:hover{
+  text-decoration: none;
+}
+#one-player-btn{
+  border-radius: 30px 0 0 30px;
+}
+#two-player-btn{
+  border-radius: 0 30px 30px 0;
 }
 .cell{
   width: 160px;
